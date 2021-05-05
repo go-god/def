@@ -29,12 +29,14 @@ func TestDef(t *testing.T) {
 }
 
 /**
+% go test -v
 === RUN   TestDef
-2021/05/05 18:17:54 empty object:  {}
-2021/05/05 18:17:54 empty object to json:  {} err:  <nil>
-2021/05/05 18:17:54 empty array:  []
-2021/05/05 18:17:54 empty array to json:  [] err:  <nil>
-2021/05/05 18:17:54 map to json:  {"a":1,"b":"hello","c":1.234} err:  <nil>
+2021/05/05 20:22:05 empty object:  {}
+2021/05/05 20:22:05 empty object to json:  {} err:  <nil>
+2021/05/05 20:22:05 empty array:  []
+2021/05/05 20:22:05 empty array to json:  [] err:  <nil>
+2021/05/05 20:22:05 map to json:  {"a":1,"b":"hello","c":1.234} err:  <nil>
 --- PASS: TestDef (0.00s)
 PASS
+ok
 */
